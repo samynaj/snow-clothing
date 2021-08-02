@@ -48,11 +48,16 @@ export const CustomButtonContainer = styled.div`
     height: 50px;
     letter-spacing: 0.5px;
     line-height: 50px;
-    padding: 0 35px 0 35px;
+    text-align: center;
     font-size: 15px;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed';
     font-weight: 500;
+    @media screen and (max-width: 800px) {
+        text-align: center;
+        font-size: 0.8rem;
+        letter-spacing: 0.1px;
+      }
     
     cursor: pointer;
     display: flex;
